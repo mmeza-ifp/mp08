@@ -1,0 +1,136 @@
+body{
+  background-color:#FFFFFF;
+  margin:0;
+  color:#666;
+  font-size: 13px;
+}
+h1{
+  margin:0;
+  font-family:Helvetica,Arial,Sans serif;
+  color:#666;
+  width:390px;
+  padding:30px;
+}
+a:link{
+  color:red;
+  }
+a:hover{
+  color:black;
+    }
+a:active{
+  color:green;
+    }
+a:visited{
+  color:red;
+}
+
+p{
+  margin:0;
+  font-size: 18px;
+  line-height: 22px;
+  width:390px;
+  padding:0 30px;
+  text-indent:18px;
+}
+li:hover{
+  background-color: white;
+}
+
+li{
+  list-style-type:none;
+  background-color:lightpink;
+  display: inline-block;
+  margin: 0px 0 0 0;
+  padding:7px;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color:pink;
+  line-height: 30px;
+}
+
+ul{
+  padding: 0px;
+  width: 740px;
+  display:inline-block;
+  vertical-align:top;
+  height:30px;
+  margin: 0 0 0 0;
+}
+.blanca{
+  background-color:#FFF;
+}
+
+.verda{
+  background-color:#6C3;
+  height: 550px
+}
+
+.fosca{
+  background-color:#333;
+}
+.clara{
+  background-color:#EEECE;
+}
+#menu{
+  height:40px;
+}
+#coneix{
+  background-image:url(../img/img-hero-full-list.png);
+  background-repeat:no-repeat;
+  background-position:400px 0;
+
+}
+#tot{
+  height:641px;
+  background-image:url(../img/allinone.jpg);
+  background-repeat:no-repeat;
+  background-position:641px 0;
+}
+
+#util{
+  height:500px;
+  background-image:url(../img/curator-short.png);
+  background-repeat:no-repeat;
+  background-position:500px 0;
+}
+#descarraga{
+  height:200px;
+  text-align:center;
+}
+
+#rapid{
+  height:550px;
+  background-image:url(../img/img-hero-full-list.png);
+  background-repeat:no-repeat;
+  background-position:550px 0;
+}
+
+#arreu{
+  height:643px;
+  background-image:url(../img/anywhere.png);
+  background-repeat:no-repeat;
+  background-position:643px 0;
+}
+
+#facil{
+  background-image:url(../img/mobile-share.png);
+  background-repeat:no-repeat;
+  background-position:643px 13px;
+}
+#descarraga img{
+  padding:30px;
+}
+
+.torna{
+  height:100px;
+  width:100px;
+  background-color:yellowgreen;
+  position:fixed;
+  bottom:100px;
+  right:100px;
+  border-radius:50px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 120px;
+  box-shadow:orange -10px 10px 10px;
+}

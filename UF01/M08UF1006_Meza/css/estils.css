@@ -1,0 +1,60 @@
+.taulell{
+  width:800px;
+  height:800px;
+  background-color:brown;
+  position:relative;
+  margin:0 auto;
+}
+
+.filera .casella {
+  width: 100px;
+  height: 100px;
+  background-color:yellow;
+  float:left;
+  background-image:linear-gradient(45deg,yellow,orange);
+}
+
+.filera:nth-child(odd) .casella:nth-child(even){
+  background-color: black;
+  background-image:linear-gradient(black, black)
+
+}
+
+.filera:nth-child(even) .casella:nth-child(odd) {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  background-image: linear-gradient(black, black);
+  float:left;
+}
+
+.filera:nth-child(even) .casella:nth-child(even){
+  background:yellow;
+  background-image:linear-gradient(45deg,yellow,orange);
+}
+
+b{
+  display:block;
+  background-color: red;
+  width:80px;
+  height:80px;
+  border-radius:40px;
+  margin:10px;
+  transition:0.1s;
+}
+
+.filera:nth-child(n+3) b{
+  display:none;
+}
+.filera:nth-child(n+7) b{
+  display: block;
+  background-color:grey;
+  background-image: radial-gradient(farthest-corner at 0px 0px,#999 10%,#333);
+  box-shadow: 2px 2px 5px black;
+  transition:0.1s;
+}
+
+.filera:nth-child(n+7) b:hover{
+  position:relative;
+  top:-100px;
+}

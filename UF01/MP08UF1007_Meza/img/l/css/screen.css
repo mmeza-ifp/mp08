@@ -1,0 +1,153 @@
+body{
+  color: white;
+  background-color:black;
+}
+
+ul {
+  float:left;
+}
+
+.ribbon {
+  width:30px;
+  height:30px;
+  position: relative;
+  top: -70px;
+  right: -2120px;
+}
+
+img{
+  border-radius:10px;
+  width:60px;
+  height:60px;
+  position:center;
+  box-shadow: white;
+
+}
+
+h2{
+  display:inline-block;
+  font-size:60px;
+  font-family:Helvetica;
+  margin-left:20px;
+  margin-top:20px;
+  clear:both;
+  color: white;
+  text-shadow:1px 1px 2px black, 0 0 1em  #FFC300
+, 0 0 0.2em  #FFC300;
+  font-family:
+}
+
+h3{
+  display:inline-block;
+  font-size:40px;
+  font-family:Helvetica;
+  margin:10px;
+}
+
+h4{
+  display:inline-block;
+  font-size:20px;
+  font-family:Helvetica;
+  color: white;
+  text-shadow:1px 1px 2px black, 0 0 1em  #FFC300
+, 0 0 0.2em  #FFC300;
+}
+
+ul{
+   background-color:white;
+   width:70px;
+   margin-left: 20px;
+   border-radius:10px;
+  }
+
+li{
+  list-style-type: none;
+  padding:5px;
+  }
+
+.alternatives, .valoracio{
+  margin-left:40px;
+  background-color:white;
+  float:left;
+  width:500px;
+  height:200px;
+  border-style:outset;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:3px;
+  display: inline-block;
+}
+
+.companyia{
+  margin-left: 40px;
+  background-color:white;
+  float:left;
+  width:500px;
+  height:200px;
+  border-style:outset;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:3px;
+  display: inline-block;
+
+}
+.funcionalitats, .captures, .financament{
+  width:500px;
+  height:200px;
+  background-color:white;
+  float:left;
+  display: inline-block;
+  margin-left:40px;
+  margin-bottom:20px;
+  border-style:outset;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:3px;
+
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .avantantges, .inconvenients {
+    padding: 20px;
+  }
+
+  article:last-child{
+    display: inline-block;
+    background-image: url("../img/g.jpg");
+    background-size:cover;
+    margin-top:60px;
+  }
+
+  .funciones, .cap, .financa{
+    width:500px;
+    height:200px;
+    background-color:white;
+    float:left;
+    display: inline-block;
+    margin-left:40px;
+    margin-bottom:20px;
+    border:solid 15px;
+}
+
+  .compa{
+    margin-left: 40px;
+    float:left;
+    width:500px;
+    height:200px;
+    background-color:white;
+    display: inline-block;
+    border:solid 15px;
+}
+
+  .alterna, .valora{
+    margin-left: 40px;
+    float:left;
+    width:500px;
+    height:200px;
+    background-color:white;
+    display: inline-block;
+    border:solid 15px;
+}

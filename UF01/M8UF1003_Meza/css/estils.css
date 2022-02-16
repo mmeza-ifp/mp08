@@ -1,0 +1,39 @@
+div{
+  width:5em;
+  font-family:Arial,Sans-serif;
+}
+
+h2{
+  clear:both;
+}
+
+.segon{
+  background-color: red;
+  float:left;
+  height:5em;
+  width:30%;
+  margin:1.6%;
+}
+.contenidor{
+  background-color: orange;
+  width: 63em;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+
+.tercer{
+  background-color:blue;
+  float:left;
+  font-size:3em;
+  width:5em;
+  margin:1em;
+}
+
+.primer{
+  float:left;
+  font-size:3em;
+  width:5em;
+  margin:1em;
+  background-color:pink;
+}

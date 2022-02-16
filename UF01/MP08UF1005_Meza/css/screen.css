@@ -1,0 +1,59 @@
+body{
+
+}
+
+.vinyeta{
+  height:90mm;
+  width:57mm;
+  margin: 1mm;
+  background-size: cover;
+  float:left;
+}
+#primera{
+  background-color: green;
+  background-image: url(../img/Watch1.png);
+}
+
+#segona{
+
+  background-color: black;
+  background-image: url(../img/Watch2.png);
+}
+
+#tercera{
+
+  background-color: yellow;
+  background-image: url(../img/Watch3.png);
+}
+
+#quarta{
+  background-color: pink;
+  background-image: url(../img/Watch4.png);
+}
+
+#cinquena{
+  background-color: white;
+  background-image: url(../img/Watch5.png);
+}
+
+#sisena{
+
+  background-color:yellow;
+  background-image: url(../img/Watch6.png);
+}
+#septima{
+
+  background-color: green;
+  background-image: url(../img/Watch7.png);
+}
+
+#vuitena{
+
+  background-color: brown;
+  background-image: url(../img/Watch8.png);
+}
+
+#novena{
+background-color: white;
+background-image: url(../img/Watch9.png);
+}

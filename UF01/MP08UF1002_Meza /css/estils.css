@@ -1,0 +1,53 @@
+body{
+  font-size:16px;
+  font-size:42px;
+}
+div {
+  background-color:red;
+  height:10em;
+  width: 10em;
+  background-size: cover;
+  background-position:center;
+}
+
+.flotatE{
+  float:left;
+  margin:0 1em 1em 0;
+  background-image: url(../img/escorpio.jpg);
+}
+
+.capitular{
+  float:left;
+  margin:0 1em 0 0;
+  background-image: url(../img/capitular.jpg);
+  background-size:100% 100%;
+  width:2em;
+  height: 2.2em;
+}
+.flotatR{
+  float:right;
+  margin:0 0 1em 1em;
+  background-image: url(../img/virgo.jpg);
+}
+
+h2{
+  clear:both;
+}
+
+span {
+  color:red;
+  display: none;
+}
+0
+.columna{
+  width:40%;
+  margin: 0 5%;
+}
+
+.esquerra{
+  float:left;
+}
+
+.dreta{
+  float:right;
+}

@@ -1,0 +1,272 @@
+body{
+  color: white;
+  background-color:black;
+}
+
+ul {
+  float:left;
+}
+
+.ribbon img {
+  width:70px;
+  height:70px;
+  position: relative;
+  right: -1900px;
+}
+
+img{
+  border-radius:10px;
+  width:60px;
+  height:60px;
+  position:center;
+
+
+}
+
+h2{
+  display:inline-block;
+  font-size:60px;
+  font-family: 'Cinzel', serif;
+  margin-left:20px;
+  margin-top:60px;
+  clear:both;
+  color: white;
+  text-shadow:1px 1px 2px black, 0 0 1em  #FF5733, 0 0 0.2em  #FF5733;
+}
+
+.bu img{
+  width:300px;
+  height:200px;
+  margin-left:150px;
+}
+h4{
+  padding-left: 20px;
+  font-size:30px;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow:1px 1px 2px black, 0 0 1em  #FF5733, 0 0 0.2em  #FF5733;
+}
+
+ul{
+   background-color:white;
+   width:70px;
+   margin-left: 20px;
+   border-radius:10px;
+  }
+
+li{
+  list-style-type: none;
+  padding:5px;
+  }
+
+.alternatives{
+  margin-left:40px;
+  background-color:white;
+  float:left;
+  width:500px;
+  height:200px;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:15px;
+  display: inline-block;
+  font-size:1em;
+  color:black;
+  padding:1em;
+  text-align: left;
+}
+
+.valoracio{
+  margin-left:40px;
+  background-color:white;
+  float:left;
+  width:500px;
+  height:500px;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:15px;
+  display: inline-block;
+  font-size:1em;
+  color:black;
+  padding:1em;
+  text-align: left;
+}
+
+.companyia{
+  margin-left: 40px;
+  background-color:white;
+  float:left;
+  width:500px;
+  height:200px;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:15px;
+  display: inline-block;
+  font-size:1em;
+  color:black;
+  font-family:sans-serif;
+  padding:1em;
+  text-align: left;
+
+}
+.funcionalitats, .captures, .financament{
+  width:500px;
+  height:300px;
+  background-color:white;
+  float:left;
+  display: inline-block;
+  margin-left:40px;
+  margin-bottom:20px;
+  border-width:15px;
+  border-color:#FF4600;
+  border-radius:15px;
+  font-size:1em;
+  color:black;
+  font-family:sans-serif;
+  padding:1em;
+  text-align: left;
+  }
+
+p{
+  font-family:'Yuji Syuku', serif;
+  font-size: 20px;
+}
+h1{
+  font-family: 'Cinzel', serif;
+  font-size:20px;
+}
+
+div {
+    text-align:left;
+  }
+
+.avantantges, .inconvenients {
+    padding: 20px;
+  }
+
+nav~article {
+  display: inline-block;
+  background-image: linear-gradient(#DAF7A6,#FF5733);
+  padding-bottom:60px;
+  }
+
+article:last-child{
+  display: inline-block;
+  background-image: url("../img/pex.jpg");
+  background-size:cover;
+  }
+
+article:last-child h2{
+    text-shadow:1px 1px 2px black, 0 0 1em  #6FFFEE, 0 0 0.2em  #6FFFEE;
+  }
+
+article:last-child h4{
+    text-shadow:1px 1px 2px black, 0 0 1em  #6FFFEE, 0 0 0.2em  #6FFFEE;
+  }
+
+.funciones, .cap{
+    width:500px;
+    height:300px;
+    background-color:white;
+    float:left;
+    display: inline-block;
+    margin-left:40px;
+    margin-bottom:20px;
+    border:solid 5px;
+    border-color:#6FFFEE;
+    font-size:1em;
+    color:black;
+    font-family:sans-serif;
+    padding:1em;
+    opacity:0.9;
+    border-radius:15px;
+}
+
+.financa{
+  width:500px;
+  height:300px;
+  background-color:white;
+  float:left;
+  display: inline-block;
+  margin-left:40px;
+  margin-bottom:20px;
+  border:solid 5px;
+  border-color:#6FFFEE;
+  font-size:1em;
+  color:black;
+  font-family:sans-serif;
+  padding:1em;
+  opacity:0.9;
+  border-radius:15px;
+}
+
+.financa img{
+width:300px;
+height:100px;
+}
+.captures img{
+  width:370px;
+  height:200px;
+}
+.cap img{
+  width:370px;
+  height:200px;
+}
+.compa{
+    margin-left: 40px;
+    float:left;
+    width:500px;
+    height:200px;
+    background-color:white;
+    display: inline-block;
+    border:solid 5px;
+    font-size:1em;
+    color:black;
+    font-family:sans-serif;
+    padding:1em;
+    border-color:#6FFFEE;
+    opacity:0.9;
+    border-radius:15px;
+}
+
+.alterna{
+    margin-left: 40px;
+    float:left;
+    width:500px;
+    height:400px;
+    background-color:white;
+    display: inline-block;
+    border:solid 5px;
+    font-size:1em;
+    color:black;
+    font-family:sans-serif;
+    padding:1em;
+    border-color:#6FFFEE;
+    opacity:0.9;
+    border-radius:15px;
+  }
+
+.valora{
+    margin-left: 40px;
+    float:left;
+    width:500px;
+    height:400px;
+    background-color:white;
+    display: inline-block;
+    border:solid 5px;
+    font-size:1em;
+    color:black;
+    font-family:sans-serif;
+    padding:1em;
+    border-color:#6FFFEE;
+    opacity:0.9;
+    border-radius:15px;
+}
+
+.contenido__video{
+ overflow: hidden;
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ z-index: -1;
