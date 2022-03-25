@@ -1,26 +1,48 @@
-
 div{
-  height:40px;
-  margin:13.3px;
-  overflow:visible;
+margin: 13.3px;
+overflow: visible;
+font-family: Arial;
+
 }
 
-.cap .peu{
-  width:1200px;
-  clear:both;
-  text-align: center;
-  height: 200px;
+.contenidor{
+  background-color: green;
+  width: 1200px;
+  margin: 0 auto;
 }
-.esquerra .dreta{
-  width:200px;
+.cap{
+text-align: center;
+height: 200px;
+}
+
+.cap, .peu{
+width: 1173.4px;
+height: 200px;
+clear: both;
+text-align: center;
+}
+
+.esq, .dre{
+width: 200px;
+float: left;
+}
+
+.esq{
+  height: 200px;
   float: left;
 }
-.centre{
-  width:72px;
-  float:left;
+
+.cos{
+width: 720px;
+float: left;
 }
 
-.contenedor{
-  width:1200px;
-  background-color:pink;
+.dre{
+float: right;
+}
+
+.peu{
+width: 500px;
+height: 200px;
+clear: both;
 }

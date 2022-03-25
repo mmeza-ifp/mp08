@@ -1,0 +1,94 @@
+body{
+  background-color: #222;
+  font-family: arial, helvetica, sans-serif;
+  color:#fff;
+}
+.fitxa{
+  width: 175px;
+  height:300px;
+  margin:10px;
+  border-radius:5px;
+  float:left;
+}
+img{
+  border-radius: 5px 5px 0 0;
+}
+h2{
+  margin-top: 41px;
+  float:none;
+}
+h3{
+  font-size: 14px;
+margin:0;
+}
+h4{
+width: 50%;
+float:left;
+margin:0;
+}
+  h5{
+  width: 50%;
+  float:left;
+  margin:0;
+  text-align:right;
+}
+.interessants{
+  overflow:hidden;
+}
+.vistos{
+  overflow:hidden;
+  -webkit-filter:greyscale(100%);
+  -moz-filter:greyscale(100%);
+  filter:grayscale(100%);
+}
+.pendents{
+  overflow:hidden;
+}
+.vistes{
+  overflow:hidden;
+  -webkit-filter:greyscale(100%);
+  -moz-filter:greyscale(100%);
+  filter:grayscale(100%);
+}
+.seguint{
+  overflow:hidden;
+}
+.barra{
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  background-image: url(../img/quasinegre.png);
+  z-index:100%;
+  }
+
+  .barra img{
+    margin:10px;
+    float:left;
+  }
+  .barra ul li{
+    float:left;
+    list-style-type: none;
+    margin: 0 15px;
+  }
+  .barra .navegacio{
+  }
+  .barra .social{
+    float:right;
+    list-style-type: none;
+    margin: 0 15px;
+  }
+
+  .barra a:link{
+    color:white;
+    display:block;
+    text-decoration:none;
+  }
+  .barra a:hover{
+    border-bottom:solid 2px #fff;
+  }
+  .barra a:visited{
+    color:white;
+  }

@@ -1,0 +1,34 @@
+body{
+  background-image: url(../img/cuatro.jpg);
+}
+a{
+  font-size:37px;
+  font-family: 'Satisfy', cursive;
+  color:#001D09;
+}
+.piedras{
+  text-align: center;
+}
+.piedras{
+  background-image: url(../img/piedras.png);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:50rem;
+  height:40em;
+  background-size: 150%;
+  animation: saltar 2s alternate infinite ease-in;
+}
+
+@keyframes saltar {
+  0%{
+    transform:translateY(12%);
+  }
+
+  20%{
+    transform:translateY(10%);
+
+  100%{
+    transform:translateY(12%);
+  }
+}

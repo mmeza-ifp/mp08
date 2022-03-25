@@ -1,0 +1,171 @@
+body{
+background-image: url(../img/espiritual.jpg);
+}
+a{
+  font-size:37px;
+  margin-left:10px;
+}
+.asumi{
+  width: 500px;
+  height:700px;
+  background-image: url(../img/asumi.jpg);
+  background-position:center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-top:40px;
+}
+
+.sato{
+  background-color:none;
+  opacity:70%;
+  width: 301px;
+  height:650px;
+  margin-top:40px;
+  margin-left:6.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-family: 'Satisfy', cursive;
+}
+
+.sato:hover{
+  background-color:#f1f1f1;
+  opacity:85%;
+
+}
+
+.maco{
+  width: 500px;
+  height:700px;
+  background-image: url(../img/maco.jpg);
+  background-position:center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-left:350px;
+  margin-top:-600px;
+  font-family: 'Satisfy', cursive;
+
+}
+
+.macoco{
+  background-color:none;
+  opacity:70%;
+  width: 301px;
+  height:650px;
+  margin-top:40px;
+  margin-left:6.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-family: 'Satisfy', cursive;
+}
+.macoco:hover{
+  background-color:#ff4040;
+  opacity:85%;
+}
+
+.maestro{
+  width: 500px;
+  height:700px;
+  background-image: url(../img/maestro.jpg);
+  background-position:center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-left:44rem;
+  margin-top:-50rem;
+  font-family: 'Satisfy', cursive;
+
+}
+
+.maes{
+  background-color:none;
+  opacity:70%;
+  width: 301px;
+  height:650px;
+  margin-top:40px;
+  margin-left:6.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.maes:hover{
+  background-color:#94f6f9;
+  opacity:85%;
+}
+.bolin{
+  width: 500px;
+  height:700px;
+  background-image: url(../img/bolin.jpg);
+  background-position:center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-left:65rem;
+  margin-top:-40rem;
+  font-family: 'Satisfy', cursive;
+}
+
+.bol{
+  background-color:none;
+  opacity:70%;
+  width: 301px;
+  height:650px;
+  margin-top:40px;
+  margin-left:6.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.bol:hover{
+  background-color:#eccaac;
+  opacity:85%;
+}
+
+.gif{
+  background-image:none;
+  background-repeat: no-repeat;
+  width:20rem;
+  height:20rem;
+  background-size: 50%;
+  background-position: center;
+}
+
+.gif:hover{
+  background-image: url(../img/llama.gif);
+}
+
+
+.animacion{
+  background-image:none;
+  background-repeat: no-repeat;
+  width:20rem;
+  height:20rem;
+  background-size: 50%;
+  background-position: center;
+}
+
+.animacion:hover{
+  background-image: url(../img/llave.png);
+}
+
+
+
+.hijos{
+  background-image:none;
+  background-repeat: no-repeat;
+  width:25rem;
+  height:25rem;
+  background-size: 60%;
+  background-position: center;
+  margin-left:-50px;
+}
+
+.hijos:hover{
+  background-image: url(../img/hijos.gif);
+}
+
+
+.roca{
+  background-image:none;
+  background-repeat: no-repeat;
+  width:25rem;
+  height:25rem;
+  background-size: 60%;
+  background-position: center;
+  margin-left:-50px;
+}
+
+.roca:hover{
+  background-image: url(../img/roca.png);
+}

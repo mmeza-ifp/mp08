@@ -1,0 +1,288 @@
+body{
+  background-image: url(../img/loto.jpg);
+}
+
+a{
+  color:#E8744B;
+  font-size:23px;
+}
+
+.burbuja{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/tio.gif);
+  margin-top:30px;
+  margin-left:50px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.escena{
+  background-image:radial-gradient(#FFFFFF, #E8744B);
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  margin-top:30px;
+  opacity:70%;
+}
+
+.escena:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+.burbuja:active{
+  animation: transition 2s infinite;
+}
+
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+.burbujaa{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/nuevo.gif);
+  margin-top:30px;
+  margin-left:23rem;
+  background-size: 99%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.escenaa{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image:radial-gradient(#FFFFFF, #E8744B);
+  margin-top:-17.2rem;
+  opacity:70%;
+  font-family: 'Satisfy', cursive;
+}
+
+.burbujaa:active{
+  animation: transition 2s infinite;
+}
+
+.escenaa:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+.burbu{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/PVUt.gif);
+  margin-top:30px;
+  margin-left:43rem;
+  background-size:127%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.escen{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image:radial-gradient(#FFFFFF, #E8744B);
+  font-family: 'Satisfy', cursive;
+  font-size:23px;
+  margin-top:-17.2rem;
+  opacity:70%;
+}
+
+
+
+
+.escen:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+.burbu:active{
+  animation: transition 2s infinite;
+}
+
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+.nuevo{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/payaso.gif);
+  margin-top:30px;
+  margin-left:63rem;
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.nuevoo{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image:radial-gradient(#FFFFFF, #E8744B);
+  margin-top:-17.2rem;
+  opacity:70%;
+}
+.nuevoo:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+.nuevo:active{
+  animation: transition 2s infinite;
+}
+
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+.otra{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/otra.gif);
+  margin-top:20rem;
+  margin-left:60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.otraa{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image:radial-gradient(#FFFFFF, #F8AD31);
+  margin-top:-17.2rem;
+  opacity:70%;
+}
+
+.otra:active{
+  animation: transition 2s infinite;
+}
+
+.otraa:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+.metal{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image: url(../img/metal.gif);
+  margin-top:2rem;
+  margin-left:23rem;
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+
+.metall{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-image:radial-gradient(#FFFFFF, #F8AD31);
+  margin-top:-17.2rem;
+  opacity:70%;
+}
+
+.metal:active{
+  animation: transition 2s infinite;
+}
+.metall:hover{
+  background-image:none;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+  rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85)
+  0px 0px 0px 15px;
+}
+
+@keyframes transition{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}

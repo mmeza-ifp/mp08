@@ -1,0 +1,542 @@
+body{
+  background-color:black;
+  font-size: 1.5rem;
+}
+
+
+nav ul li:hover{
+  background-image:url(../img/antiguo.jpg);
+  width:65rem;
+  height:150rem;
+}
+
+a{
+  font-size:2rem;
+  padding:0;
+}
+
+h1{
+    color:black;
+    font-size:10px;
+  }
+
+  nav ul li{
+    display:block;
+    margin:0.1em;
+    float:left;
+    padding:0.4rem;
+    background-image:url(../img/antiguo.jpg);
+    width:65rem;
+    height:6rem;
+    border-radius:3px;
+    margin-top:-65rem;
+    margin-left:90rem;
+  }
+
+  nav ul li ul{
+    display:none;
+  }
+
+  nav li:hover>ul{
+    display:block;
+    position:relative;
+    left:-3.1rem;
+  }
+
+  nav ul:hover li ul li{
+    float:none;
+  }
+
+
+li{
+    text-align: center;
+    margin-top:10px;
+    font-family: 'Aladin', cursive;
+    color:black;
+    font-size:80px;
+    border-radius: 5px;
+}
+
+
+.agua{
+  height:95px;
+  width:68rem;
+  font-size:50px;
+  margin-top:40px;
+  font-family: 'Noto Serif JP', serif;
+  background-color:#497B90;
+  color:white;
+}
+
+.decoracion{
+  height:90px;
+  width:68rem;
+  background-image: url(../img/mar.jpg);
+}
+.lago{
+  background-image:url(../img/cero.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  width:250px;
+  height:250px;
+  margin: 0 auto;
+  border-radius:50%;
+  background-color:white;
+  background-size: cover;
+  box-shadow: 5px 5px 15px #1E8897;
+  margin-bottom:10px;
+}
+
+.si{
+  background-color: none;
+  width:250px;
+  height:250px;
+  margin-top:50px;
+  border-radius:10px;
+}
+
+.que{
+  width:17rem;
+  text-align:center;
+  margin-left:1.5rem;
+  font-size:2rem;
+}
+
+
+.rio{
+  background-image:url(../img/primero.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 70%;
+  width:250px;
+  height:250px;
+  margin-bottom:10px;
+  border-radius:10px;
+  background-color:white;
+  box-shadow: 5px 10px 18px #020024;
+  margin: auto;
+  margin-bottom:10px;
+
+}
+
+.claro{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.porque{
+  font-size:2rem;
+  width:17rem;
+  margin-left:23rem;
+  margin-top:-21.5rem;
+}
+
+
+.mar{
+  background-image:url(../img/segundo.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 90%;
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-color:white;
+  box-shadow: 5px 5px 15px #1E8897;
+  margin: auto;
+  margin-bottom:10px;
+}
+
+
+.no{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.aque{
+  font-size:2rem;
+  width:17rem;
+  margin-left:45rem;
+  margin-top:-21.5rem;
+}
+
+.oceano{
+  background-image:url(../img/tercera.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 100%;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+  background-color:white;
+  box-shadow: 5px 10px 18px #020024;
+  margin:auto;
+  margin-bottom:10px;
+}
+
+.aja{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.aqua{
+  font-size:2rem;
+  width:17rem;
+  margin-left:1.5rem;
+  margin-top:50px;
+}
+
+
+.laguna{
+  background-image:url(../img/cuarta.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 97%;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+  background-color:white;
+  box-shadow: 5px 10px 18px #020024;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.ala{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.aquo{
+  font-size:2rem;
+  width:17rem;
+  margin-left:23rem;
+  margin-top:-21.5rem;
+}
+
+
+.gota{
+  background-image:url(../img/cinco.png);
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size: 100%;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+  background-color:white;
+  box-shadow: 5px 10px 18px #020024;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.nose{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.aqun{
+  font-size:2rem;
+  width:17rem;
+  margin-left:45rem;
+  margin-top:-21.5rem;
+}
+
+.sal{
+  background-image:url(../img/seis.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 90%;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+  background-color:white;
+  border-radius:50%;
+  box-shadow: 5px 10px 18px #1E8897;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.supuesto{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.aqu{
+  font-size:2rem;
+  width:17rem;
+  margin-left:1.5rem;
+  margin-top:60px;
+}
+
+.sa{
+  background-image:url(../img/siete.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 90%;
+  width:250px;
+  height:250px;
+  background-color:white;
+  border-radius:10px;
+  box-shadow: 5px 10px 18px #020024;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.por{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.fa{
+  font-size:2rem;
+  width:17rem;
+  margin-left:23rem;
+  margin-top:-21.5rem;
+}
+
+.se{
+  background-image:url(../img/ocho.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 90%;
+  width:250px;
+  height:250px;
+  background-color:white;
+  border-radius:50%;
+  box-shadow: 5px 10px 18px #1E8897;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.le{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.fe{
+  font-size:2rem;
+  width:17rem;
+  margin-left:45rem;
+  margin-top:-21.5rem;
+}
+
+
+
+.aire{
+  height:95px;
+  width:68rem;
+  font-size:50px;
+  margin-top:40px;
+  font-family: 'Noto Serif JP', serif;
+  background-color:#FDC9F6;
+  color:#010E35;
+}
+
+.decoracionn{
+  height:100px;
+  width:68rem;
+  background-image: url(../img/nubes.jpg);
+  background-position:-20rem;
+}
+
+.delfin{
+  background-image:url(../img/remolino.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 90%;
+  width:250px;
+  height:250px;
+  background-color:#faf9f5;
+  border-radius:50%;
+  box-shadow: 5px 10px 18px #FFCDEB;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.delfiin{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.fu{
+  font-size:2rem;
+  width:17rem;
+  margin-left:1.5rem;
+  margin-top:60px;
+}
+
+.toroo{
+  background-image:url(../img/atrapado.jpg);
+  background-repeat:no-repeat;
+  background-position:left;
+  background-size: 130%;
+  width:250px;
+  height:250px;
+  background-color:#faf9f5;
+  border-radius:10px;
+  box-shadow: 5px 10px 18px #FEB778;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.tor{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.toro{
+  font-size:2rem;
+  width:17rem;
+  margin-left:23rem;
+  margin-top:-21.5rem;
+}
+
+.sapoo{
+  background-image:url(../img/casi.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 150%;
+  width:250px;
+  height:250px;
+  background-color:#faf9f5;
+  border-radius:50%;
+  box-shadow: 5px 10px 18px #FFCDEB;
+  margin:auto;
+  margin-bottom:10px;
+
+}
+
+.sap{
+  background-color: none;
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.sapo{
+  font-size:2rem;
+  width:17rem;
+  margin-left:45rem;
+  margin-top:-21.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+  width:60px;
+  height:800px;
+
+}
+
+
+.si:hover{
+  background-image:linear-gradient(#1E8897,#EDEDEE);
+  border-radius:50%;
+  transition:1s;
+}
+
+.claro:hover{
+  background-image:linear-gradient(#020024, #090979, #00d4ff);
+}
+
+.no:hover{
+  background-image:linear-gradient(#1E8897,#EDEDEE);
+  transition:1s;
+  border-radius:50%;
+}
+.aja:hover{
+  background-image:linear-gradient(#020024, #090979, #00d4ff);
+}
+
+.ala:hover{
+  background-image:linear-gradient(#020024, #090979, #00d4ff);
+}
+
+.nose:hover{
+  background-image:linear-gradient(#020024, #090979, #00d4ff);
+}
+
+.supuesto:hover{
+  background-image:linear-gradient(#1E8897,#EDEDEE);
+  transition:1s;
+  border-radius:50%;
+}
+
+.por:hover{
+  background-image:linear-gradient(#020024, #090979, #00d4ff);
+}
+
+.le:hover{
+  background-image:linear-gradient(#1E8897,#EDEDEE);
+  transition:1s;
+  border-radius:50%;
+}
+
+.delfiin:hover{
+  background-image:linear-gradient(#CCFFFF,#FFCDEB);
+  transition:1s;
+  border-radius:50%;
+}
+
+.tor:hover{
+  background-image:linear-gradient(#FEB778,#CCFFFF);
+}
+
+
+.sap:hover{
+  background-image:linear-gradient(#CCFFFF,#FFCDEB);
+  transition:1s;
+  border-radius:50%;
+}
+.osooo{
+  background-image: url(../img/osooo.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  width:90rem;
+  height:70rem;
+}
+
+.malo{
+  background-image: url(../img/malo.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  width:90rem;
+  height:70rem;
+  margin-left:160rem;
+  margin-top:-70rem;
+}

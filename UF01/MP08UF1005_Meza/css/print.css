@@ -1,88 +1,96 @@
-body{
-  width:210px;
-  height:297px;
-  background-color:red;
+body {
+  width: 210mm;
+  height:297mm;
 }
-.vinyeta{
-  height:90mm;
-  width:57mm;
+
+.vinyeta {
   position: absolute;
+  width: 90mm;
+  height:57mm;
+  margin: 1mm;
   background-size: cover;
+  float: left;
 }
-#primera{
-  left:17mm;
-  top:11mm;
-  height:90mm;
-  width:57mm;
-  background-color: green;
+
+#primera {
+  left: 17mm;
+  top: 11mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch1.png);
+  background-size: 100% 100%;
 }
 
-#segona{
-  left:77mm;
-  top:11mm;
-  background-color: black;
+#segona {
+  left: 77mm;
+  top: 11mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch2.png);
+  background-size: 100% 100%;
+
 }
 
-#tercera{
-  left:137mm;
-  top:11mm;
-  height:90mm;
-  width:57mm;
-  background-color: yellow;
+#tercera {
+  left: 137mm;
+  top: 11mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch3.png);
+  background-size: 100% 100%;
 }
 
-#quarta{
-  left:17mm;
-  top:103mm;
-  height:90mm;
-  width:57mm;
-  background-color: pink;
+#quarta {
+  left: 17mm;
+  top: 103mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch4.png);
+  background-size: 100% 100%;
+
 }
 
-#cinquena{
-  left:77mm;
-  top:103mm;
-  height:90mm;
-  width:57mm;
-  background-color: white;
+#cinquena {
+  left: 77mm;
+  top: 103mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch5.png);
+  background-size: 100% 100%;
 }
 
-#sisena{
-  left:137mm;
-  top:103mm;
-  height:90mm;
-  width:57mm;
-  background-color:yellow;
+#seixanta{
+  left: 137mm;
+  top: 103mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch6.png);
+  background-size: 100% 100%;
 }
-#septima{
-  left:17mm;
-  top:197mm;
-  height:90mm;
-  width:57mm;
-  background-color: green;
+
+#setanta {
+  left: 17mm;
+  top: 195mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch7.png);
+  background-size: 100% 100%;
 }
 
-#vuitena{
-  left:77mm;
-  top:197mm;
-  height:90mm;
-  width:57mm;
-  background-color: brown;
+#vuitanta {
+  left: 77mm;
+  top: 195mm;
+  height: 90mm;
+  width: 57mm;
   background-image: url(../img/Watch8.png);
+  background-size: 100% 100%;
 }
 
-#novena{
-left:137mm;
-top:197mm;
-height:90mm;
-width:57mm;
-background-color: white;
-background-image: url(../img/Watch9.png);
+#novena {
+  left: 137mm;
+  top: 195mm;
+  height: 90mm;
+  width: 57mm;
+  background-image: url(../img/Watch9.png);
+  background-size: 100% 100%;
 }

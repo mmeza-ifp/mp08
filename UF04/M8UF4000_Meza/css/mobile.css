@@ -1,0 +1,108 @@
+body{
+  background:red;
+  font-size: 1.5rem;
+}
+h1{
+  clear:both;
+}
+nav ul li:hover{
+  background: yellow;
+}
+
+
+@media screen and (min-width:851px){
+  body{
+    background:olive;
+    color:white;
+
+  }
+  p:after{
+    content:"";
+    display:block;
+    width:6.25rem;
+    height:6.25rem;
+    background: url(../img/ico512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav ul li{
+    display:block;
+    background: red;
+    margin:0.1em;
+    float:left;
+    padding:0.5rem;
+    width:8rem;
+  }
+
+  nav ul li ul{
+    display:none;
+  }
+
+  nav li:hover>ul{
+    display:block;
+    position:relative;
+    left:-3.1rem;
+  }
+
+  nav ul:hover li ul li{
+    float:none;
+  }
+}
+
+@media screen and (max-width:850px) and (min-width:750px){
+body{
+  background:yellow;
+  color:olive;
+ }
+}
+
+@media screen and (max-width:749px){
+  body{
+    background:pink;
+    color:brown;
+  }
+  p:after{
+    content:"";
+    display:block;
+    width:6.25rem;
+    height:6.25rem;
+    background: url(../img/ico0032.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav ul li{
+    display:block;
+    background: green;
+    width: 7rem;
+    margin:0.1em;
+    padding:0.5rem;
+  }
+  nav ul li{
+    display:block;
+    background: red;
+    margin:0.1em;
+    padding:0.5rem;
+    width:8rem;
+    position:relative;
+  }
+
+  nav ul li ul{
+    padding:0;
+    margin:0;
+    display:none;
+  }
+
+  nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top:0;
+    left:9rem;
+  }
+
+  nav ul:hover li ul li{
+    float:none;
+  }
+
+}
