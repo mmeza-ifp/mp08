@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+  background-color:red;
+}
+.cap{
+  height: 549px;
+}
+
+.cos{
+  height:960px;
+  width: 960px;
+  background:yellow;
+}
+
+img{
+  height: 200px;
+}
+
+
+.h2{
+  font-family: monospace;
+  color:black;
+  font-size:1rem;
+}
