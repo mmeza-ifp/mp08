@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Dosen Killer';
+    src: url('DosenKiller.eot');
+    src: url('DosenKiller.eot?#iefix') format('embedded-opentype'),
+        url('DosenKiller.woff2') format('woff2'),
+        url('DosenKiller.woff') format('woff'),
+        url('DosenKiller.ttf') format('truetype'),
+        url('DosenKiller.svg#DosenKiller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
